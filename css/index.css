@@ -1,22 +1,49 @@
-html {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html {
+    font-family: "Roboto", sans-serif;
+    font-weight:100;
+    font-size:16px;
 }
 
 body {
-
 }
 
-.container {
-    max-width: 80%;
+header {
+    /* position: fixed; */
+}
+
+nav {
+    margin:auto;
+    text-align:right;
+}
+
+section {
+    margin:auto;
+    width:80%;
+    align-items: center;
     text-align: center;
-
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    align-items: center;
 }
 
-p {
-
+section.aboutme {
+    font-family: "Playfair Display", serif;
+    font-weight:600;
+    font-style:italic;
+    font-size:2em;
+    letter-spacing: 0.15em;
 }
 
-.section {
-    width:50%;
-    text-align: center;
+footer {
+    margin:auto;
+    max-width:50%;
+    background-color:darkblue;
+}
+
+footer p {
+    color: #fff;
 }
